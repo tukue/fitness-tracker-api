@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+dist/
+.env
+setup-and-run.js
+setup-with-sample-data.js
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+coverage/
+
+# OS-specific
+.DS_Store
+Thumbs.db
