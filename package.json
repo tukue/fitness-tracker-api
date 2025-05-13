@@ -8,10 +8,13 @@
     "build": "tsc",
     "test": "jest",
     "seed": "ts-node src/seeders/seed.ts",
+    "seed:sample": "ts-node src/seeders/sample-data.ts",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev",
     "setup": "node setup-and-run.js",
-    "setup:sample": "node setup-with-sample-data.js"
+    "setup:sample": "node setup-with-sample-data.js",
+    "test:db": "ts-node src/utils/db-connection-test.ts",
+    "test:db-connection": "jest src/tests/db-connection.test.ts"
   },
   "keywords": [],
   "author": "",

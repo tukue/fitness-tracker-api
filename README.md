@@ -89,6 +89,33 @@ Run tests with:
 npm test
 ```
 
+### Database Connection Testing
+
+Test your database connection with:
+
+```
+npm run test:db
+```
+
+This will verify that your application can connect to the PostgreSQL database using the connection string in your `.env` file.
+
+If you need to troubleshoot database connection issues:
+
+1. Check that your PostgreSQL server is running
+2. Verify the connection details in your `.env` file
+3. Ensure special characters in your password are properly URL-encoded
+4. Make sure the database exists (create it if needed)
+
+### Sample Data
+
+To populate your database with sample data for testing:
+
+```
+npm run seed:sample
+```
+
+This will create sample users, workout plans, exercises, and workout records.
+
 ## API Documentation
 
 API documentation is available using OpenAPI Specification. After starting the server, you can access the documentation at:
