@@ -22,7 +22,7 @@ A RESTful API for a workout tracker application that allows users to sign up, lo
 
 ## Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js (v20 or higher)
 - PostgreSQL database
 
 ## Getting Started
